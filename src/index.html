@@ -9,14 +9,19 @@
     <label for="dollars">Enter US Dollar Amount:</label>
     <input id="dollars" type="number">
 
-    <label for="currency">Currency to Convert Into</label>
+    <label for="currency">Convert to: </label>
     <select name="currency" id="currency">
-    <option value="EUR">Euro</option>
+    <option value="CAD">Canadian Dollars</option>
+    <option value="CNY">Chinese Yen</option>
+    <option value="EUR">Euros</option>
+    <option value="KRW">Korean Won </option>
+    <option value="TWD">New Taiwan Dollars</option>
     </select>
 
     <button class="btn-success" id="exchange">Exchange!</button>
     <div class="show-exchange"></div>
     <div class="show-errors"></div>
   </div>
+  <script type="text/javascript" src="bundle.js"></script>
 </body>
 </html>
