@@ -15,7 +15,7 @@ $(document).ready(function() {
       const rate = data.conversion_rates[currency];
       const num = rate * USD;
       const amount = num.toFixed(2);
-      $('.show-exchange').text(`The currency exchange rate is $${rate} and the amount is ¤${amount}`);
+      $('.show-exchange').text(`The currency exchange rate is $${rate} and the amount is ${amount}`);
     }, function(error) {
       $('.show-errors').text(`There was an error with your request: ${error}`);
     });
